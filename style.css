@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: gray;
+}
+
 header{
   text-align: center;
   font-size: 30px;
@@ -19,6 +23,7 @@ header{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: white;
 }
 
 h1 {
@@ -39,9 +44,13 @@ h1 {
 
 #section-about {
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
-#img-container {
+.img-container {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
@@ -49,16 +58,19 @@ h1 {
 }
 
 
-#text-about {
+#text-about, #text-about2 {
   text-align: center;
-  width: 40%;
+  width: 50%;
   font-size: 17px;
+  margin-left: 20px;
+  padding: 50px;
 }
 
-#about  {
+.about  {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 hr {
@@ -76,6 +88,7 @@ hr {
   bottom: 10px;
   margin-left: 10px;
   left: 1830px;
+  padding: 5px;
 }
 
 footer {
@@ -89,4 +102,37 @@ footer {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+#second-luca {
+  margin-top: 50px;
+  width: 300px;
+  height: 400px;
+}
+
+#text-about2 {
+  margin-right: 20px;
+}
+
+#section-about2 {
+  margin-bottom: 70px;
+}
+
+#third-luca {
+  height: 400px;
+}
+
+.img-container-large {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#teste {
+  width: 100%;
+}
+
+li {
+  margin-top: 5px;
+  text-align: start;
 }
